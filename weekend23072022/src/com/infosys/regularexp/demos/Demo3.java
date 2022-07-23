@@ -3,6 +3,7 @@ package com.infosys.regularexp.demos;
 
 /*
  * The string can start with either BNK OR TRV OR IS followed by - and ending up with 4 digits
+ | (Pipe) symbol is used for OR which means match if the string starts with BNK or TRV or INS and if we have any other pattern , it wont match 
  */
 public class Demo3 {
 
